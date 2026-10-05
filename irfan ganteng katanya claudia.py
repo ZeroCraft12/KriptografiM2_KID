@@ -35,7 +35,7 @@ def decrypt_vigenere(plaintext, key):
         decrypted_text.append(decrypted_char)
     return "".join(decrypted_text)
 
-# Example usage
+
 text_to_encrypt = "Hello, World!"
 key = "KEY"
 
@@ -45,5 +45,3 @@ print(f"Encrypted Text: {encrypted_text}")
 decrypted_text = decrypt_vigenere(encrypted_text, key)
 print(f"Decrypted Text: {decrypted_text}")
 
-#previous code was only support the upper case letters
-#this code can be apply on both
