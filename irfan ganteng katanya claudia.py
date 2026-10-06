@@ -36,7 +36,7 @@ def decrypt_vigenere(plaintext, key):
     return "".join(decrypted_text)
 
 
-text_to_encrypt = "Hello, World!"
+text_to_encrypt = "Irfan kata claudia baik "
 key = "KEY"
 
 encrypted_text = encrypt_vigenere(text_to_encrypt, key)
