@@ -36,12 +36,11 @@ def decrypt_vigenere(plaintext, key):
     return "".join(decrypted_text)
 
 
-text_to_encrypt = "Irfan kata claudia baik "
-key = "KEY"
-
-encrypted_text = encrypt_vigenere(text_to_encrypt, key)
-print(f"Encrypted Text: {encrypted_text}")
-
-decrypted_text = decrypt_vigenere(encrypted_text, key)
-print(f"Decrypted Text: {decrypted_text}")
+if __name__ == "__main__":
+    text_to_encrypt = "Irfan kata claudia baik "
+    key = "KEY"
+    encrypted_text = encrypt_vigenere(text_to_encrypt, key)
+    print(f"Encrypted Text: {encrypted_text}")
+    decrypted_text = decrypt_vigenere(encrypted_text, key)
+    print(f"Decrypted Text: {decrypted_text}")
 
